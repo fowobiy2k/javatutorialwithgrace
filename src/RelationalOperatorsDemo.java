@@ -16,6 +16,8 @@ public class RelationalOperatorsDemo {
         result = (age1 == age2) || (age1 > age3);
         System.out.println(result);
 
+        boolean test = (age1 < age3) && (age2 == age1);
+        System.out.println(test);
 
     }
 
