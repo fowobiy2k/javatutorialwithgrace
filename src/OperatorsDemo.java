@@ -21,5 +21,23 @@ public class OperatorsDemo {
 
         double cost2 = 2.5 * 3;
         System.out.println("The product is: " + cost2);
+
+        int value = 7;
+        System.out.println("Pre-Increment: " + ++value);
+        System.out.println("Pre-Decrement: " + --value);
+        System.out.println("Pre-Decrement: " + --value);
+
+        int num = 25;
+        num += 2; // num = num + 2
+        System.out.println(" num += 2: " + num );
+
+        num -= 5;
+        System.out.println(" num -= 5: " + num );
+
+        num *= 2;
+        System.out.println(" num *= 2: " + num );
+
+        num /= 10;
+        System.out.println(" num /= 10: " + num );
     }
 }
